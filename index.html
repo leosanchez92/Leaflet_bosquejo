@@ -80,7 +80,7 @@
         map.getPane('pane_MapaBaseESRI_0').style.zIndex = 400;
         var layer_MapaBaseESRI_0 = L.tileLayer('http://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
             pane: 'pane_MapaBaseESRI_0',
-            opacity: 0.8,
+            opacity: 1,
             attribution: '',
             minZoom: 9,
             maxZoom: 12,
@@ -119,10 +119,10 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 0.6, 
+                weight: 1.2, 
                 fill: true,
                 fillOpacity: 0.7,
-                fillColor: 'rgba(120,164,68,1.0)',
+                fillColor: 'rgba(120,164,68,0.7)',
                 interactive: true,
             }
         }
