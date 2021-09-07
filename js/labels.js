@@ -23,6 +23,8 @@ function resetLabels(markers) {
   labelEngine.update();
 }
 
+var sidebar = L.control.sidebar(‘sidebar’);
+
 function addLabel(layer, id) {
 
   // This is ugly but there is no getContainer method on the tooltip :(
