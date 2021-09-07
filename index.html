@@ -178,8 +178,6 @@
             }
             var sidebar = L.control.sidebar('sidebar', { position: 'left' }).addTo(map);
 
-            
-
             function style_LocalidadesRurales_1_0() {
                 return {
                     pane: 'pane_LocalidadesRurales_1',
@@ -196,7 +194,7 @@
                 }
             }
 
-            L.control.zoom({ position: "topright" }).addTo(map);
+            L.control.zoom({ position: "bottomright" }).addTo(map);
 
             map.createPane('pane_LocalidadesRurales_1');
             map.getPane('pane_LocalidadesRurales_1').style.zIndex = 401;
